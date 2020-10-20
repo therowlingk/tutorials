@@ -1,0 +1,28 @@
+{
+  "node_info": {
+    "protocol_version": {
+      "p2p": "7",
+      "block": "10",
+      "app": "0"
+    },
+    "id": "a19b1664f34056a2c8370742468fd12115e3f95e",
+    "listen_addr": "tcp://0.0.0.0:26656",
+    "network": "tequila-0004",
+    "version": "0.33.7",
+    "channels": "4020212223303800",
+    "moniker": "XRA4GiZecK",
+    "other": {
+      "tx_index": "on",
+      "rpc_address": "tcp://0.0.0.0:26657"
+    }
+  },
+  "application_version": {
+    "name": "terra",
+    "server_name": "terrad",
+    "client_name": "terracli",
+    "version": "0.4.0",
+    "commit": "0ccb97e4427007f940b611fb0b5fb67d6a7d69f5",
+    "build_tags": "netgo ledger muslc,",
+    "go": "go version go1.14.7 linux/amd64"
+  }
+}

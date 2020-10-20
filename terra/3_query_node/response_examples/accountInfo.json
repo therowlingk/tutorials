@@ -1,0 +1,18 @@
+{
+  "type": "core/Account",
+  "value": {
+    "account_number": "1456",
+    "address": "terra1jmn8kywcyuvg92ljvv68vmddprz2tflg33pu7g",
+    "coins": [
+      {
+        "amount": "999971891",
+        "denom": "uluna"
+      }
+    ],
+    "public_key": {
+      "type": "tendermint/PubKeySecp256k1",
+      "value": "A1qIZpJ9zYJy3opUA0yjhdj20o4hK9J3QiOkr+V2CUkm"
+    },
+    "sequence": "2"
+  }
+}

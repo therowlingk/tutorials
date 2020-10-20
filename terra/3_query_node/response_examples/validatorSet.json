@@ -1,0 +1,65 @@
+{
+  "block_height": "728915",
+  "validators": [
+    {
+      "address": "terravalcons1py9slqqpn79mcu0uunragryr20aecs8q2va0ke",
+      "pub_key": "terravalconspub1zcjduepqwgwyky5375uk0llhwf0ya5lmwy4up838jevfh3pyzf5s3hd96xjslnexul",
+      "proposer_priority": "35872",
+      "voting_power": "220343"
+    },
+    {
+      "address": "terravalcons1zx9ura7qq8l2n98r26jpfjm8283ly8vzr5300n",
+      "pub_key": "terravalconspub1zcjduepq7cspfkyg8wrs4yyp6w75a70p40gs22g8fe22w4uyz2mly4k72yvs5y0tlp",
+      "proposer_priority": "88745",
+      "voting_power": "239910"
+    },
+    {
+      "address": "terravalcons1g2prksken0msljh4fnayr8gr0zfk3m5g0gh25z",
+      "pub_key": "terravalconspub1zcjduepq85lttdmt2ela3plau0qj4ytvtxndht7dg3l58ngkg0p93am7uyqsph96vw",
+      "proposer_priority": "235796",
+      "voting_power": "236449"
+    },
+    {
+      "address": "terravalcons1gufyh5px7u6ya98f5hz8qr3yuwg3g6d34ar2ys",
+      "pub_key": "terravalconspub1zcjduepqh7jx8jkach39qsw0kcp9jztzwwca28tvh4s9wccypvl79x80v96qpl9lst",
+      "proposer_priority": "-459891",
+      "voting_power": "100"
+    },
+    {
+      "address": "terravalcons1ft7njr76fh6d68w68prsasp5nzdvgfmwhveejd",
+      "pub_key": "terravalconspub1zcjduepqnzrrsmy6dq995vnehuu63286q9nltnw6sxzq93kl8a0etgxggnms6vmu33",
+      "proposer_priority": "364282",
+      "voting_power": "239713"
+    },
+    {
+      "address": "terravalcons12fqy3xuu530epewucn6lgwvvvucdc7prynxa60",
+      "pub_key": "terravalconspub1zcjduepqkwv5ltsk762q2a0eaqrj4plnvjx9hkesgr47rsqphc59c9srtjnqr4y89x",
+      "proposer_priority": "232828",
+      "voting_power": "10"
+    },
+    {
+      "address": "terravalcons1tl7snmr0s5g6n9l225cdksqand0rfl497ejhj6",
+      "pub_key": "terravalconspub1zcjduepqsac476x64pp5pvmsrx7huag0sm96sgxqarxndscuxnjwzzr3ha2qllrlza",
+      "proposer_priority": "-349080",
+      "voting_power": "1904"
+    },
+    {
+      "address": "terravalcons15wxc2f73pynp7xpnln4qwv3myc83dxjtnkue6t",
+      "pub_key": "terravalconspub1zcjduepq2c7yhl7ztphp63m4k259grf86h9u7cudkd5lvgcp799px9wzkupq55z4k9",
+      "proposer_priority": "-43020",
+      "voting_power": "12"
+    },
+    {
+      "address": "terravalcons15nc6apancpxg4qrmd5q0r4earntjwzvupuhd9y",
+      "pub_key": "terravalconspub1zcjduepquytugqld2y8zsvk20uud9gl0ug6lhcw5vzrqequ7pysj9hacpawqrr4rkf",
+      "proposer_priority": "192729",
+      "voting_power": "559"
+    },
+    {
+      "address": "terravalcons1kr04yjvzclcrc3g3xhgdd4fun28vkp5kuu0ec5",
+      "pub_key": "terravalconspub1zcjduepqvyc0lm4umk8ertkgjgaldwqktkx94mtx0dcddwc0upttplgmznrs7a7n5w",
+      "proposer_priority": "-298253",
+      "voting_power": "11008"
+    }
+  ]
+}

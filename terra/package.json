@@ -1,0 +1,15 @@
+{
+  "name": "terra-tutorials",
+  "version": "1.0.0",
+  "description": "Figment Learn tutorials for Terra blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@terra-money/terra.js": "^0.5.8",
+    "dotenv": "^8.2.0"
+  }
+}
