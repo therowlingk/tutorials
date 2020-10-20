@@ -4,7 +4,11 @@
   "description": "Figment Learn tutorials for Terra blockchain",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "1": "node 1_connecting_to_node/connect.js",
+    "2": "node 2_creating_account/create_account.js.js",
+    "3": "node 3_query_node/query.js",
+    "4:send": "node 4_transactions/send.js",
+    "4:swap": "node 4_transactions/swap.js"
   },
   "author": "",
   "license": "ISC",
