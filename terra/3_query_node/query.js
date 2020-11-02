@@ -1,5 +1,4 @@
 const { LCDClient, MnemonicKey } = require('@terra-money/terra.js');
-const path = require('path');
 require('dotenv').config();
 
 const main = async () => {
