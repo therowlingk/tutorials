@@ -1,5 +1,5 @@
 const { LCDClient, MnemonicKey, MsgSend, isTxError } = require('@terra-money/terra.js');
-require('dotenv').config({ path: '../.env' });
+require('dotenv').config();
 
 const main = async () => {
   // Create connection to DataHub Terra node
