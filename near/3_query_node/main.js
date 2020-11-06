@@ -1,13 +1,16 @@
+// Load environment variables
+require("dotenv").config();
+
 // Load Near SDK components
 const near = require("near-api-js");
 
 // Setup default client options
 const options = {
-  networkId:   "default",
-  nodeUrl:     "https://rpc.testnet.near.org",
-  walletUrl:   "https://wallet.testnet.near.org",
-  helperUrl:   "https://helper.testnet.near.org",
-  explorerUrl: "https://explorer.testnet.near.org",
+  networkId:   process.env.NEAR_NETWORK,
+  nodeUrl:     process.env.NEAR_NODE_URL,
+  walletUrl:   `https://wallet.${process.env.NEAR_NETWORK}.near.org`,
+  helperUrl:   `https://helper.${process.env.NEAR_NETWORK}.near.org`,
+  explorerUrl: `https://explorer.${process.env.NEAR_NETWORK}.near.org`,
   accountId:   "figment-learn.testnet",
   keyStore:    {}
 }
@@ -40,6 +43,9 @@ async function main() {
   // Get current gas price
   gasPrice = await provider.sendJsonRpc("gas_price", [null]);
   console.log("gas price:", gasPrice);
+
+  b = await provider.sendJsonRpc("block", { finality: "final" });
+  console.log("gas price:", b);
 }
 
 main()
