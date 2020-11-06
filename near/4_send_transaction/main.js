@@ -5,6 +5,7 @@ require("dotenv").config();
 const near = require("near-api-js");
 const { sha256 } = require("js-sha256");
 const fs = require("fs");
+const { time } = require("console");
 
 // Formatter helper for Near amounts
 function formatAmount(amount) {
@@ -86,6 +87,8 @@ async function main() {
     recentBlockHash
   );
 
+  near.transactions.createTransaction
+
   // Before we can sign the transaction we must perform three steps
   // 1) Serialize the transaction in Borsh
   const serializedTx = near.utils.serialize.serialize(
@@ -117,6 +120,13 @@ async function main() {
     console.log("OPEN LINK BELOW to see transaction in NEAR Explorer!");
     console.log(`${options.explorerUrl}/transactions/${result.transaction.hash}`);
     console.log("----------------------------------------------------------------");
+
+    setTimeout(async function() {
+      console.log("Checking transaction status:", result.transaction.hash);
+
+      const status = await provider.sendJsonRpc("tx", [result.transaction.hash, options.accountId]);
+      console.log("Transaction status:", status);
+    }, 5000);
   }
   catch(error) {
     console.log("ERROR:", error);
